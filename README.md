@@ -28,14 +28,16 @@ It displays wallet balance, payouts, hashrate, workers, and more with clean CLI-
 2. Clone this repository:
    ```bash
    git clone https://github.com/enoeryou/ZPOOL-WALLET-MONITOR.git
-   cd ZPOOL-WALLET-MONITOR
+   
+     ```bash
+     cd ZPOOL-WALLET-MONITOR
 
 3. Run the script:
+   ```bash
+   php bot.php
 
-php bot.php
 
-
-4. You will be prompted to select a coin to monitor:
+5. You will be prompted to select a coin to monitor:
 
 Select the coin to mine:
 

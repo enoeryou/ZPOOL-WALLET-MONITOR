@@ -1,87 +1,112 @@
-# ZPOOL-WALLET-MONITOR
-Monitor mining wallet dari ZPOOL secara realtime via terminal (PHP)
+# 💰 ZPOOL Wallet Monitor (PHP)
 
-Script PHP ringan untuk memonitor wallet mining di ZPOOL secara realtime dari terminal.  
-Menampilkan informasi lengkap seperti saldo wallet, pembayaran terbaru, dan statistik worker.
-
-A lightweight PHP script to monitor ZPOOL mining wallet in real-time via terminal.  
-It displays full stats including wallet balance, recent payouts, and worker status.
+A lightweight PHP script to monitor your ZPOOL mining wallet in real-time from the terminal.  
+It displays wallet balance, payouts, hashrate, workers, and more with clean CLI-style output.
 
 ---
 
-## 🖼️ Contoh Tampilan / Example Output
+## 🖼️ Example Output
 
 ![ZPOOL Wallet Monitor Screenshot](https://github.com/enoeryou/ZPOOL-WALLET-MONITOR/blob/main/screenshot/Screenshot_20250726-003131.jpg?raw=true)
 
 ---
 
-## 🌐 Fitur / Features
+## 🌐 Features
 
-🇮🇩 **Bahasa Indonesia**
-- Mendukung banyak wallet (multi-wallet)
-- Ambil data dari ZPOOL API (otomatis)
-- Menampilkan hashrate, saldo, dan status worker
-- Format CLI yang rapi
-- Auto-refresh setiap beberapa detik
-
-🇬🇧 **English**
 - Supports multiple wallets (multi-wallet)
-- Fetches data from ZPOOL API
-- Displays hashrate, balance, and worker status
-- Neat CLI-style output
+- Fetches data directly from ZPOOL API
+- Displays balance, unpaid earnings, pending payouts, and total paid
+- Shows real-time hashrate and active workers
 - Auto-refresh every few seconds
+- Clean terminal-style output
 
 ---
 
-## 🚀 Cara Menjalankan / How to Run
+## 🚀 How to Run
 
-1. Clone repo atau upload file `bot.php` ke server Anda  
-   Clone the repo or upload `bot.php` to your server
+1. Make sure **Git** and **PHP** are installed on your system.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/enoeryou/ZPOOL-WALLET-MONITOR.git
+   cd ZPOOL-WALLET-MONITOR
 
-2. Tambahkan alamat wallet di bagian ini / Add your wallet address:
-   ```php
-   $wallets[] = 'D8FBfUPiT5Q4vcDuthrFFQkmj6r6HMDnbk';
-
-3. Jalankan lewat terminal / Run via terminal:
+3. Run the script:
 
 php bot.php
 
 
+4. You will be prompted to select a coin to monitor:
+
+Select the coin to mine:
+
+[1] BTC
+[2] LTC
+[3] DOGE
+[4] DGB
+
+Press a number (1-4): 4
+
+
+5. Then enter your wallet address:
+
+Enter DigiByte wallet address:
+D8FBfUPiT5Q4vcDuthrFFQkmj6r6HMDnbk
+
+
 
 
 ---
 
-📦 Persyaratan / Requirements
+📦 Requirements
 
-PHP 7.0 atau lebih tinggi / PHP 7.0 or higher
+PHP 7.0 or higher
 
-Koneksi internet aktif / Active internet connection
+Active internet connection
 
-
-
----
-
-📄 Lisensi / License
-
-Lisensi MIT — bebas digunakan, dimodifikasi, dan dibagikan
-MIT License — free to use, modify, and distribute
 
 
 ---
 
-🤝 Kontribusi / Contributions
+📄 License
 
-Sangat terbuka untuk pull request, saran, atau penambahan fitur baru.
-Pull requests, suggestions, and feature ideas are very welcome!
+MIT License — free to use, modify, and distribute.
+
+
+---
+
+🤝 Contributions
+
+Pull requests and feature suggestions are welcome!
+Help improve this project by contributing.
 
 
 ---
 
-👤 Pembuat / Author
+👤 Author
 
-PlayZonz (https://playzonz.my.id)
-
-Terima kasih telah menggunakan proyek ini!
-Thanks for using this project!
+PlayZonz
+🌐 https://playzonz.my.id
 
 ---
+
+☕ Donate
+
+If you find this project helpful and want to support future development, feel free to donate:
+
+Bitcoin (BTC):
+bc1prwp2vwcn4c9xg8u4ywsc93gr2x8vum0lwd0hyxqxq2c4upu7mghqmn9up4
+
+Ethereum (ETH):
+0x231d0f7e35df6f70dce655d0a24bd51355f1eb98
+
+Binance Smart Chain (BSC):
+0x231d0f7e35df6f70dce655d0a24bd51355f1eb98
+
+DigiByte (DGB):
+D8FBfUPiT5Q4vcDuthrFFQkmj6r6HMDnbk
+
+Litecoin (LTC):
+MW8vaQ9wexVx2NacNgQmZsETgRpxY5XBVj
+
+
+Your support is greatly appreciated! ❤️

@@ -1,8 +1,6 @@
 # ZPOOL-WALLET-MONITOR
 Monitor mining wallet dari ZPOOL secara realtime via terminal (PHP)
 
-
-
 Script PHP ringan untuk memonitor wallet mining di ZPOOL secara realtime dari terminal.  
 Menampilkan informasi lengkap seperti saldo wallet, pembayaran terbaru, dan statistik worker.
 
@@ -13,7 +11,7 @@ It displays full stats including wallet balance, recent payouts, and worker stat
 
 ## 🖼️ Contoh Tampilan / Example Output
 
-╔════════════════════════════════════╗ ║      ZPOOL DGB WALLET MONITOR     ║ ╚════════════════════════════════════╝ ▶ Wallet: D8FBfUPiT5Q4vcDuthrFFQkmj6r6HMDnbk 💰 Balance     : 0.06083547 DGB 📊 Unsold      : 0.38428498 DGB ⏳ Pending     : 0.44512045 DGB ✨ 24h Paid    : 0.72866509 DGB 💎 Total Paid  : 0.75518761 DGB ⏰ Next Payout : 04:00 (3h 47m) ⚡ Hashrate    : 540.0 H/s 👥 Workers     : 3
+![ZPOOL Wallet Monitor Screenshot](https://github.com/enoeryou/ZPOOL-WALLET-MONITOR/blob/main/screenshot/Screenshot_20250726-003131.jpg?raw=true)
 
 ---
 

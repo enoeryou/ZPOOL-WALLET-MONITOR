@@ -28,9 +28,7 @@ It displays wallet balance, payouts, hashrate, workers, and more with clean CLI-
 2. Clone this repository:
    ```bash
    git clone https://github.com/enoeryou/ZPOOL-WALLET-MONITOR.git
-   
-     ```bash
-     cd ZPOOL-WALLET-MONITOR
+   cd ZPOOL-WALLET-MONITOR
 
 3. Run the script:
    ```bash
@@ -101,14 +99,13 @@ bc1prwp2vwcn4c9xg8u4ywsc93gr2x8vum0lwd0hyxqxq2c4upu7mghqmn9up4
 Ethereum (ETH):
 0x231d0f7e35df6f70dce655d0a24bd51355f1eb98
 
+Litecoin (LTC):
+MW8vaQ9wexVx2NacNgQmZsETgRpxY5XBVj
+
 Binance Smart Chain (BSC):
 0x231d0f7e35df6f70dce655d0a24bd51355f1eb98
 
 DigiByte (DGB):
 D8FBfUPiT5Q4vcDuthrFFQkmj6r6HMDnbk
-
-Litecoin (LTC):
-MW8vaQ9wexVx2NacNgQmZsETgRpxY5XBVj
-
 
 Your support is greatly appreciated! ❤️
